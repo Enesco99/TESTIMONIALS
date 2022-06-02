@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&display=swap" rel="stylesheet">
+
+<head>
+	<title>
+		x
+	</title>
+</head>
+<style>
+
+.body {
+ 	background-color: hsl(210, 46%, 95%);
+ 	margin: auto;
+ 	padding: 10px;
+	max-width: 1200px;
+	overflow: visible;
+}
+.yy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+
+
+.xx {
+    display: grid;
+    grid-template-rows: 1fr 1fr;   
+
+}
+
+.aside4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+/*    grid-column-gap: 20px;*/
+    grid-row-gap: 20px;
+
+/*    justify-content: stretch;
+    align-items: stretch;*/
+}
+
+.aside1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+/*    grid-row-gap: 20px;*/
+/*    justify-content: stretch;
+    align-items: stretch;*/
+}
+
+.upaside2 {
+	display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+/*    grid-row-gap: 20px;*/
+/*    justify-content: stretch;
+    align-items: stretch*/
+}
+
+.downaside2 {
+	display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+/*    grid-row-gap: 20px;*/
+/*    justify-content: stretch;
+    align-items: stretch*/
+}
+
+.box img {
+    height: 100%;
+    clip-path: circle();
+    border:3px solid hsl(263, 55%, 52%);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+h1 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    color: hsl(210, 46%, 95%);
+    font-weight: 500, 600;
+    line-height: 25px;
+    align-items: center;
+    padding: 2rem 2rem;
+    justify-content: center;
+    text-align: left;
+}
+
+h2 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    color: hsl(219, 29%, 14%);
+    font-weight: 500, 600;
+    line-height: 25px;
+    align-items: center;
+    padding: 2rem 2rem;
+    justify-content: center;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+    line-height: 13px;
+    align-items: center;
+    padding: 2rem 2rem;
+    justify-content: center;
+    text-align: left;
+}
+
+/*.circle {
+    height: 100%;
+    clip-path: circle();
+}*/
+
+
+
+.box {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+/*    border-radius: 10px ;*/
+    margin: 10px;
+    padding: 3rem 3rem;
+/*    justify-content: center;*/
+}
+
+#box1 {
+    text-align: center;
+    align-items: center;
+	border-radius: 10px ;
+    background-color: hsl(263, 55%, 52%);
+}
+
+#box2 {
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    background-color: hsl(217, 19%, 35%);
+}
+
+
+#box3 {
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#box4 {
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    background-color: hsl(219, 29%, 14%);
+}
+
+#box5 {
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px ;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+</style>
+
+
+<body class="body">
+	<div class="box">
+		<div class="aside4">
+			<div class="upaside2">
+				<div id="box1">
+                    <div class="circle">
+                        <img src="./image-daniel.jpg" alt="">
+                    </div>
+					<h1>
+						I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.
+                	</h1>
+            	</div>
+				<div id="box2">
+                    <div class="circle">
+                        <img src="./image-jonathan.jpg" alt="">
+                    </div>
+					<h1>
+						The team was very supportive and kept me motivated
+                	</h1>
+				</div>
+			</div>
+			<div class="downaside2">				
+				<div id="box3">
+                    <div class="circle">
+                        <img src="./image-jeanette.jpg" alt="">
+                    </div>
+					<h2>
+						An overall wonderful and rewarding experience
+                	</h2>
+				</div>
+				<div id="box4">
+                    <div class="circle">
+                        <img src="./image-patrick.jpg" alt="">
+                    </div>
+					<h1>
+						Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
+                	</h1>
+				</div>					
+			</div>			
+		</div>
+		<div class="aside1">
+			<div class="box" id="box5">
+                <div class="xx">
+                    <div class="circle">
+                        <div class="yy">
+                            <img src="./image-kira.jpg" alt="">
+                             Kira Whittle Verified Graduate                            
+                        </div>
+                    </div>
+                    <h2>
+                        Such a life-changing experience. Highly recommended!
+                    </h2>               
+                </div>
+
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
